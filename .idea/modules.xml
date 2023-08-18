@@ -2,10 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/framework/cache/cache.iml" filepath="$PROJECT_DIR$/framework/cache/cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/cache/cache-caffeine/cache-caffeine.iml" filepath="$PROJECT_DIR$/framework/cache/cache-caffeine/cache-caffeine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/cache/cache-core/cache-core.iml" filepath="$PROJECT_DIR$/framework/cache/cache-core/cache-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/cache/cache-redis/cache-redis.iml" filepath="$PROJECT_DIR$/framework/cache/cache-redis/cache-redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/core/core.iml" filepath="$PROJECT_DIR$/framework/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/distribution/distribution.iml" filepath="$PROJECT_DIR$/distribution/distribution.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/framework.iml" filepath="$PROJECT_DIR$/framework/framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/orm/mybatis-plus/mybatis-plus.iml" filepath="$PROJECT_DIR$/framework/orm/mybatis-plus/mybatis-plus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/orm/orm.iml" filepath="$PROJECT_DIR$/framework/orm/orm.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/r-pan.iml" filepath="$PROJECT_DIR$/.idea/r-pan.iml" />
       <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/swagger2/swagger2.iml" filepath="$PROJECT_DIR$/framework/swagger2/swagger2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/web/web.iml" filepath="$PROJECT_DIR$/framework/web/web.iml" />
     </modules>
   </component>
 </project>

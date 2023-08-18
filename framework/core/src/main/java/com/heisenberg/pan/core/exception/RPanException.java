@@ -21,4 +21,14 @@ public class RPanException extends RuntimeException{
         this.code = code;
         this.message = message;
     }
+
+    public RPanException(String message){
+        this.code = ResponseCode.ERROR_PARAM.getCode();
+        this.message = message;
+    }
+
+    public RPanException(){
+        this.code = ResponseCode.ERROR_PARAM.getCode();
+        this.message = ResponseCode.ERROR_PARAM.getDesc();
+    }
 }

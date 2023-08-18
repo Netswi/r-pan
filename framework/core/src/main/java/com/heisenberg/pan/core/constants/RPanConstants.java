@@ -27,7 +27,7 @@ public interface RPanConstants {
     /**
      * 公用0L
      */
-    Long ZERO_LNG = 0L;
+    Long ZERO_LONG = 0L;
     /**
      * 公用0数字
      */
