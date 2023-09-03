@@ -1,6 +1,7 @@
 package com.heisenberg.pan.web.exception;
 
 import com.heisenberg.pan.core.exception.RPanException;
+import com.heisenberg.pan.core.exception.RPanFrameWorkException;
 import com.heisenberg.pan.core.response.R;
 import com.heisenberg.pan.core.response.ResponseCode;
 import org.springframework.validation.BindException;
@@ -58,6 +59,10 @@ public class WebExceptionHandler {
         return R.fail(ResponseCode.ERROR_PARAM.getCode(),fieldError.getDefaultMessage());
     }
 
+    @ExceptionHandler(value = RPanFrameWorkException.class)
+    public R runtimeExceptionHandler(RPanFrameWorkException e){
+        return R.fail(ResponseCode.ERROR_PARAM.getCode(), e.getMessage());
+    }
     @ExceptionHandler(value = RuntimeException.class)
     public R runtimeExceptionHandler(RuntimeException e){
         return R.fail(ResponseCode.ERROR_PARAM.getCode(), e.getMessage());

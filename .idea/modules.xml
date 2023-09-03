@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/framework/orm/mybatis-plus/mybatis-plus.iml" filepath="$PROJECT_DIR$/framework/orm/mybatis-plus/mybatis-plus.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/orm/orm.iml" filepath="$PROJECT_DIR$/framework/orm/orm.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/r-pan.iml" filepath="$PROJECT_DIR$/.idea/r-pan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework/schedule/schedule.iml" filepath="$PROJECT_DIR$/framework/schedule/schedule.iml" />
       <module fileurl="file://$PROJECT_DIR$/server/server.iml" filepath="$PROJECT_DIR$/server/server.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/swagger2/swagger2.iml" filepath="$PROJECT_DIR$/framework/swagger2/swagger2.iml" />
       <module fileurl="file://$PROJECT_DIR$/framework/web/web.iml" filepath="$PROJECT_DIR$/framework/web/web.iml" />

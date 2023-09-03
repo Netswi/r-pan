@@ -2,6 +2,7 @@ package com.heisenberg.pan.server.modules.user.mapper;
 
 import com.heisenberg.pan.server.modules.user.entity.RPanUser;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Param;
 
 /**
 * @author 2Bug
@@ -10,6 +11,8 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 * @Entity com.heisenberg.pan.server.modules.user.entity.RPanUser
 */
 public interface RPanUserMapper extends BaseMapper<RPanUser> {
+
+    String selectQuestionByUsername(@Param("username") String username);
 
 }
 
